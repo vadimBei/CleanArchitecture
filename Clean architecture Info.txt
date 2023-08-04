@@ -1,0 +1,48 @@
+0 Utils
+	Utils
+
+1 Entities
+	Entities
+	DomainServices.Implementations
+	DomainServices.Interfaces
+
+2 Infrastructure interfaces
+	DataAccess.Interfaces
+	Email.Interfaces
+	WebApp.Interfaces
+
+3 UseCases
+	ApplicationServices.Implementations (тут мають знаходитись сервіси, які використовуються в різних UseCases)
+	ApplicationServices.Interfaces
+	UseCases
+
+4  Infrastructure inmplementations
+	DataAccess.MsSQL: ORM, SQL скрипти, ініціалізація бд, миграції, Fluent-мапінги
+	Email.MailHandler
+	Залежності від Web-движка (url-генератори)
+
+
+
+
+Application
+	Common
+		Behaviours
+		Exceptions
+		Interfaces: для Infrastructure і для UseCases
+	TodoItems
+	TodoLists
+
+Domain
+	Commands
+	Comparers
+	Events
+	ExtensionMethods
+	Handlers
+	Interfaces
+	Mapping
+	Operations
+	Queries
+	Services
+	Utils
+	Validators
+	ViewModels
