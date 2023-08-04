@@ -16,7 +16,7 @@
 ## UseCases
 	3.1 ApplicationServices.Implementations (Common services which can be used into different Use Cases)
 	3.2 ApplicationServices.Interfaces
-	3.3 UseCases
+	3.3 UseCases (CQRS commands and queries)
 
 ## Infrastructure inmplementations
 	4.1 DataAccess.MsSQL: ORM, SQL scripts, DB init, Migrations
